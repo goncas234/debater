@@ -5,4 +5,10 @@ This project is an AI debate system that interacts with a user in a surprisingly
 
 I'm planning on maybe building an ui in the future with the functionality of changing the ai's voice, personality and way of talking but for now I only implemented it locally.
 
+My main challenge was creating a system that could maintain the webcam active as long with the llm but claude sugested me this idea of "threading" and it worked just fine.
+
+Instead of trying to collect a massive dataset of facial expressions, I decided to use a simpler approach based on distances between key points on the face. By measuring how far certain points on the mouth, eyes, and eyebrows move relative to each other, I could extract meaningful features for emotion detection. :)
+
 Hope u like it and if everythings broken pls tell me as this is one of my first github worth projects
+
+
